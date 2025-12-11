@@ -1,0 +1,67 @@
+syntax = "proto3";
+
+package crud;
+
+import "google/protobuf/empty.proto";
+import "google/protobuf/timestamp.proto";
+
+// Mensaje para un Usuario
+message Usuario {
+    string id = 1; 
+    string nombre = 2;
+    string email = 3;
+    string password = 4;
+    string genero = 5;
+    repeated string estilos_preferidos = 6;
+    repeated string prendas_armario = 7;
+    google.protobuf.Timestamp fecha_registro = 8; 
+    repeated string seguidores = 9;
+    repeated string siguiendo = 10;
+}
+
+// Mensaje para crear/actualizar un usuario
+message UsuarioCreacion {
+    string nombre = 1;
+    string email = 2;
+    string password = 3;
+    string genero = 4;
+    repeated string estilos_preferidos = 5;
+    repeated string prendas_armario = 6;
+    repeated string seguidores = 7;
+    repeated string siguiendo = 8;
+}
+
+// Mensaje para obtener un solo usuario
+message UsuarioId {
+    string id = 1;
+}
+
+// Mensaje de respuesta para el CRUD
+message CrudResponse {
+    bool success = 1;
+    string message = 2;
+    string inserted_id = 3; 
+}
+
+// El Servicio gRPC
+service UsuarioService {
+    // CREATE
+    rpc CrearUsuario (UsuarioCreacion) returns (CrudResponse);
+    
+    // READ (Todos)
+    rpc LeerUsuarios (google.protobuf.Empty) returns (UsuariosList);
+
+    // READ (Uno por ID)
+    rpc LeerUsuarioPorId (UsuarioId) returns (Usuario);
+
+    // UPDATE
+    rpc ActualizarUsuario (Usuario) returns (CrudResponse);
+
+    // DELETE
+    rpc EliminarUsuario (UsuarioId) returns (CrudResponse);
+}
+
+// Lista de Usuarios para LeerUsuarios
+message UsuariosList {
+    repeated Usuario usuarios = 1;
+}
