@@ -1,0 +1,122 @@
+[
+    {
+        "_id": {"$oid": "507f1f77bcf86cd799439061"},
+        "nombre": "Minimalismo Elegante",
+        "descripcion": "Estilo limpio y sofisticado con colores neutros y líneas simples",
+        "categoria": "elegante",
+        "temporada": "primavera-verano",
+        "colores_destacados": ["negro", "blanco", "beige", "gris"],
+        "prendas_destacadas": ["vestidos rectos", "camisas oversize", "pantalones wide-leg"],
+        "fecha_inicio": {"$date": "2024-01-01T00:00:00Z"},
+        "fecha_fin": {"$date": "2024-06-30T23:59:59Z"},
+        "activa": true
+    },
+    {
+        "_id": {"$oid": "507f1f77bcf86cd799439062"},
+        "nombre": "Streetwear Urbano",
+        "descripcion": "Influencias urbanas con prendas oversize y detalles deportivos",
+        "categoria": "urbano",
+        "temporada": "todas",
+        "colores_destacados": ["negro", "blanco", "gris", "azul marino"],
+        "prendas_destacadas": ["hoodies", "cargos", "zapatillas deportivas"],
+        "fecha_inicio": {"$date": "2024-01-01T00:00:00Z"},
+        "fecha_fin": {"$date": "2024-12-31T23:59:59Z"},
+        "activa": true
+    },
+    {
+        "_id": {"$oid": "507f1f77bcf86cd799439063"},
+        "nombre": "Boho Chic",
+        "descripcion": "Estilo bohemio con influencias vintage y detalles románticos",
+        "categoria": "bohemio",
+        "temporada": "primavera",
+        "colores_destacados": ["blanco", "marfil", "rosa palo", "verde menta"],
+        "prendas_destacadas": ["vestidos fluidos", "faldas midi", "blusas con volantes"],
+        "fecha_inicio": {"$date": "2024-03-01T00:00:00Z"},
+        "fecha_fin": {"$date": "2024-05-31T23:59:59Z"},
+        "activa": true
+    },
+    {
+        "_id": {"$oid": "507f1f77bcf86cd799439064"},
+        "nombre": "Power Dressing",
+        "descripcion": "Estilo corporativo con siluetas estructuradas y prendas de calidad",
+        "categoria": "formal",
+        "temporada": "otoño-invierno",
+        "colores_destacados": ["navy", "gris oscuro", "burdeos", "verde militar"],
+        "prendas_destacadas": ["trajes sastreros", "camisas button-down", "zapatos de cuero"],
+        "fecha_inicio": {"$date": "2024-09-01T00:00:00Z"},
+        "fecha_fin": {"$date": "2025-02-28T23:59:59Z"},
+        "activa": false
+    },
+    {
+        "_id": {"$oid": "507f1f77bcf86cd799439065"},
+        "nombre": "Athleisure",
+        "descripcion": "Fusión entre ropa deportiva y prendas casuales para el día a día",
+        "categoria": "deportivo",
+        "temporada": "todas",
+        "colores_destacados": ["blanco", "negro", "gris", "azul cielo"],
+        "prendas_destacadas": ["sweaters", "leggings", "zapatillas lifestyle"],
+        "fecha_inicio": {"$date": "2024-01-01T00:00:00Z"},
+        "fecha_fin": {"$date": "2024-12-31T23:59:59Z"},
+        "activa": true
+    },
+    {
+        "_id": {"$oid": "507f1f77bcf86cd799439066"},
+        "nombre": "Glam Noir",
+        "descripcion": "Elegancia nocturna con predominio del negro y detalles lujosos",
+        "categoria": "glam",
+        "temporada": "invierno",
+        "colores_destacados": ["negro", "oro", "plateado", "rojo"],
+        "prendas_destacadas": ["vestidos de noche", "tops con lentejuelas", "accesorios metalizados"],
+        "fecha_inicio": {"$date": "2024-11-01T00:00:00Z"},
+        "fecha_fin": {"$date": "2025-01-31T23:59:59Z"},
+        "activa": false
+    },
+    {
+        "_id": {"$oid": "507f1f77bcf86cd799439067"},
+        "nombre": "Sustainable Fashion",
+        "descripcion": "Moda sostenible con enfoque en materiales eco-friendly y producción ética",
+        "categoria": "sostenible",
+        "temporada": "todas",
+        "colores_destacados": ["crudo", "verde oliva", "azul natural", "terracota"],
+        "prendas_destacadas": ["prendas de lino", "algodón orgánico", "accesorios artesanales"],
+        "fecha_inicio": {"$date": "2024-01-01T00:00:00Z"},
+        "fecha_fin": {"$date": "2024-12-31T23:59:59Z"},
+        "activa": true
+    },
+    {
+        "_id": {"$oid": "507f1f77bcf86cd799439068"},
+        "nombre": "Y2K Revival",
+        "descripcion": "Regreso de las tendencias de los años 2000 con un toque moderno",
+        "categoria": "retro",
+        "temporada": "verano",
+        "colores_destacados": ["rosa fucsia", "plateado", "azul eléctrico", "verde lima"],
+        "prendas_destacadas": ["minifaldas", "tops crop", "jeans low-rise"],
+        "fecha_inicio": {"$date": "2024-06-01T00:00:00Z"},
+        "fecha_fin": {"$date": "2024-08-31T23:59:59Z"},
+        "activa": false
+    },
+    {
+        "_id": {"$oid": "507f1f77bcf86cd799439069"},
+        "nombre": "Coastal Grandmother",
+        "descripcion": "Estilo relajado y sofisticado inspirado en la elegancia costera",
+        "categoria": "casual",
+        "temporada": "verano",
+        "colores_destacados": ["azul marino", "blanco", "beige", "rojo"],
+        "prendas_destacadas": ["camisas de lino", "pantalones wide-leg", "vestidos shirt"],
+        "fecha_inicio": {"$date": "2024-05-01T00:00:00Z"},
+        "fecha_fin": {"$date": "2024-08-31T23:59:59Z"},
+        "activa": false
+    },
+    {
+        "_id": {"$oid": "507f1f77bcf86cd799439070"},
+        "nombre": "Modern Utility",
+        "descripcion": "Estilo funcional con influencias workwear y detalles prácticos",
+        "categoria": "urbano",
+        "temporada": "otoño",
+        "colores_destacados": ["verde militar", "marrón", "negro", "naranja óxido"],
+        "prendas_destacadas": ["chaquetas cargo", "pantalones multitbolsillo", "botas utilitarias"],
+        "fecha_inicio": {"$date": "2024-09-01T00:00:00Z"},
+        "fecha_fin": {"$date": "2024-11-30T23:59:59Z"},
+        "activa": false
+    }
+]

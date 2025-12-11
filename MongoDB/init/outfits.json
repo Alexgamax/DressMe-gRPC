@@ -1,0 +1,212 @@
+[
+    {
+        "_id": {"$oid": "507f1f77bcf86cd799439041"},
+        "nombre": "Look Oficina Elegante",
+        "descripcion": "Perfecto para días de trabajo y reuniones importantes",
+        "usuario_id": {"$oid": "507f1f77bcf86cd799439011"},
+        "prendas": [
+        {"$oid": "507f1f77bcf86cd799439021"},
+        {"$oid": "507f1f77bcf86cd799439022"}
+        ],
+        "estilo": "elegante",
+        "temporada": "primavera",
+        "ocasion": "trabajo",
+        "puntuacion": 4.5,
+        "tendencias": [{"$oid": "507f1f77bcf86cd799439061"}],
+        "fecha_creacion": {"$date": "2024-01-25T10:00:00Z"},
+        "likes": [{"$oid": "507f1f77bcf86cd799439012"}],
+        "comentarios": [
+        {
+            "usuario_id": {"$oid": "507f1f77bcf86cd799439012"},
+            "texto": "¡Me encanta este outfit!",
+            "fecha": {"$date": "2024-01-25T11:30:00Z"}
+        }
+        ]
+    },
+    {
+        "_id": {"$oid": "507f1f77bcf86cd799439042"},
+        "nombre": "Estilo Urbano Moderno",
+        "descripcion": "Ideal para salir por la ciudad",
+        "usuario_id": {"$oid": "507f1f77bcf86cd799439012"},
+        "prendas": [
+        {"$oid": "507f1f77bcf86cd799439023"},
+        {"$oid": "507f1f77bcf86cd799439024"}
+        ],
+        "estilo": "urbano",
+        "temporada": "verano",
+        "ocasion": "casual",
+        "puntuacion": 4.2,
+        "tendencias": [{"$oid": "507f1f77bcf86cd799439062"}],
+        "fecha_creacion": {"$date": "2024-01-28T14:15:00Z"},
+        "likes": [{"$oid": "507f1f77bcf86cd799439011"}],
+        "comentarios": []
+    },
+    {
+        "_id": {"$oid": "507f1f77bcf86cd799439043"},
+        "nombre": "Boho Chic Primaveral",
+        "descripcion": "Romántico y fresco para días de primavera",
+        "usuario_id": {"$oid": "507f1f77bcf86cd799439013"},
+        "prendas": [
+        {"$oid": "507f1f77bcf86cd799439025"},
+        {"$oid": "507f1f77bcf86cd799439026"}
+        ],
+        "estilo": "bohemio",
+        "temporada": "primavera",
+        "ocasion": "fiesta",
+        "puntuacion": 4.8,
+        "tendencias": [{"$oid": "507f1f77bcf86cd799439063"}],
+        "fecha_creacion": {"$date": "2024-02-10T09:45:00Z"},
+        "likes": [{"$oid": "507f1f77bcf86cd799439014"}],
+        "comentarios": [
+        {
+            "usuario_id": {"$oid": "507f1f77bcf86cd799439014"},
+            "texto": "Los colores son preciosos",
+            "fecha": {"$date": "2024-02-10T10:20:00Z"}
+        }
+        ]
+    },
+    {
+        "_id": {"$oid": "507f1f77bcf86cd799439044"},
+        "nombre": "Business Formal",
+        "descripcion": "Para reuniones ejecutivas y eventos corporativos",
+        "usuario_id": {"$oid": "507f1f77bcf86cd799439014"},
+        "prendas": [
+        {"$oid": "507f1f77bcf86cd799439027"},
+        {"$oid": "507f1f77bcf86cd799439028"}
+        ],
+        "estilo": "formal",
+        "temporada": "invierno",
+        "ocasion": "trabajo",
+        "puntuacion": 4.6,
+        "tendencias": [{"$oid": "507f1f77bcf86cd799439064"}],
+        "fecha_creacion": {"$date": "2024-02-15T08:30:00Z"},
+        "likes": [{"$oid": "507f1f77bcf86cd799439013"}],
+        "comentarios": []
+    },
+    {
+        "_id": {"$oid": "507f1f77bcf86cd799439045"},
+        "nombre": "Weekend Casual",
+        "descripcion": "Cómodo y moderno para el fin de semana",
+        "usuario_id": {"$oid": "507f1f77bcf86cd799439015"},
+        "prendas": [
+        {"$oid": "507f1f77bcf86cd799439029"},
+        {"$oid": "507f1f77bcf86cd799439030"}
+        ],
+        "estilo": "casual",
+        "temporada": "otoño",
+        "ocasion": "casual",
+        "puntuacion": 4.3,
+        "tendencias": [{"$oid": "507f1f77bcf86cd799439065"}],
+        "fecha_creacion": {"$date": "2024-02-20T16:45:00Z"},
+        "likes": [{"$oid": "507f1f77bcf86cd799439016"}],
+        "comentarios": [
+        {
+            "usuario_id": {"$oid": "507f1f77bcf86cd799439016"},
+            "texto": "Perfecto para el sábado",
+            "fecha": {"$date": "2024-02-20T17:10:00Z"}
+        }
+        ]
+    },
+    {
+        "_id": {"$oid": "507f1f77bcf86cd799439046"},
+        "nombre": "Street Style",
+        "descripcion": "Urban y moderno para el día a día",
+        "usuario_id": {"$oid": "507f1f77bcf86cd799439016"},
+        "prendas": [
+        {"$oid": "507f1f77bcf86cd799439031"},
+        {"$oid": "507f1f77bcf86cd799439032"}
+        ],
+        "estilo": "streetwear",
+        "temporada": "verano",
+        "ocasion": "casual",
+        "puntuacion": 4.4,
+        "tendencias": [{"$oid": "507f1f77bcf86cd799439062"}],
+        "fecha_creacion": {"$date": "2024-02-25T12:20:00Z"},
+        "likes": [{"$oid": "507f1f77bcf86cd799439015"}],
+        "comentarios": []
+    },
+    {
+        "_id": {"$oid": "507f1f77bcf86cd799439047"},
+        "nombre": "Noche Glamurosa",
+        "descripcion": "Elegante y sofisticado para eventos nocturnos",
+        "usuario_id": {"$oid": "507f1f77bcf86cd799439017"},
+        "prendas": [
+        {"$oid": "507f1f77bcf86cd799439033"},
+        {"$oid": "507f1f77bcf86cd799439034"}
+        ],
+        "estilo": "glam",
+        "temporada": "invierno",
+        "ocasion": "fiesta",
+        "puntuacion": 4.7,
+        "tendencias": [{"$oid": "507f1f77bcf86cd799439066"}],
+        "fecha_creacion": {"$date": "2024-03-05T18:00:00Z"},
+        "likes": [{"$oid": "507f1f77bcf86cd799439018"}],
+        "comentarios": [
+        {
+            "usuario_id": {"$oid": "507f1f77bcf86cd799439018"},
+            "texto": "¡Qué elegante!",
+            "fecha": {"$date": "2024-03-05T19:15:00Z"}
+        }
+        ]
+    },
+    {
+        "_id": {"$oid": "507f1f77bcf86cd799439048"},
+        "nombre": "Relax Weekend",
+        "descripcion": "Cómodo y casual para días de descanso",
+        "usuario_id": {"$oid": "507f1f77bcf86cd799439018"},
+        "prendas": [
+        {"$oid": "507f1f77bcf86cd799439035"},
+        {"$oid": "507f1f77bcf86cd799439036"}
+        ],
+        "estilo": "casual",
+        "temporada": "primavera",
+        "ocasion": "casual",
+        "puntuacion": 4.1,
+        "tendencias": [{"$oid": "507f1f77bcf86cd799439065"}],
+        "fecha_creacion": {"$date": "2024-03-08T11:30:00Z"},
+        "likes": [{"$oid": "507f1f77bcf86cd799439017"}],
+        "comentarios": []
+    },
+    {
+        "_id": {"$oid": "507f1f77bcf86cd799439049"},
+        "nombre": "Vintage Romance",
+        "descripcion": "Inspirado en los años 70 con un toque moderno",
+        "usuario_id": {"$oid": "507f1f77bcf86cd799439019"},
+        "prendas": [
+        {"$oid": "507f1f77bcf86cd799439037"},
+        {"$oid": "507f1f77bcf86cd799439038"}
+        ],
+        "estilo": "vintage",
+        "temporada": "primavera",
+        "ocasion": "romántico",
+        "puntuacion": 4.9,
+        "tendencias": [{"$oid": "507f1f77bcf86cd799439063"}],
+        "fecha_creacion": {"$date": "2024-03-12T15:45:00Z"},
+        "likes": [{"$oid": "507f1f77bcf86cd799439020"}],
+        "comentarios": [
+        {
+            "usuario_id": {"$oid": "507f1f77bcf86cd799439020"},
+            "texto": "Me encanta el estilo vintage",
+            "fecha": {"$date": "2024-03-12T16:20:00Z"}
+        }
+        ]
+    },
+    {
+        "_id": {"$oid": "507f1f77bcf86cd799439050"},
+        "nombre": "Executive Meeting",
+        "descripcion": "Profesional y elegante para reuniones importantes",
+        "usuario_id": {"$oid": "507f1f77bcf86cd799439020"},
+        "prendas": [
+        {"$oid": "507f1f77bcf86cd799439039"},
+        {"$oid": "507f1f77bcf86cd799439040"}
+        ],
+        "estilo": "business",
+        "temporada": "todas",
+        "ocasion": "trabajo",
+        "puntuacion": 4.5,
+        "tendencias": [{"$oid": "507f1f77bcf86cd799439064"}],
+        "fecha_creacion": {"$date": "2024-03-18T09:15:00Z"},
+        "likes": [{"$oid": "507f1f77bcf86cd799439019"}],
+        "comentarios": []
+    }
+]

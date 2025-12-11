@@ -1,0 +1,152 @@
+[
+    {
+        "_id": {"$oid": "507f1f77bcf86cd799439011"},
+        "nombre": "Ana García",
+        "email": "ana.garcia@email.com",
+        "password": "hashed_password_123",
+        "genero": "femenino",
+        "estilos_preferidos": ["minimalista", "elegante", "casual"],
+        "prendas_armario": [
+        {"$oid": "507f1f77bcf86cd799439021"},
+        {"$oid": "507f1f77bcf86cd799439022"}
+        ],
+        "fecha_registro": {"$date": "2024-01-15T10:30:00Z"},
+        "seguidores": [{"$oid": "507f1f77bcf86cd799439012"}],
+        "siguiendo": [{"$oid": "507f1f77bcf86cd799439012"}]
+    },
+    {
+        "_id": {"$oid": "507f1f77bcf86cd799439012"},
+        "nombre": "Carlos López",
+        "email": "carlos.lopez@email.com",
+        "password": "hashed_password_456",
+        "genero": "masculino",
+        "estilos_preferidos": ["urbano", "deportivo", "casual"],
+        "prendas_armario": [
+        {"$oid": "507f1f77bcf86cd799439023"},
+        {"$oid": "507f1f77bcf86cd799439024"}
+        ],
+        "fecha_registro": {"$date": "2024-01-20T14:15:00Z"},
+        "seguidores": [{"$oid": "507f1f77bcf86cd799439011"}],
+        "siguiendo": [{"$oid": "507f1f77bcf86cd799439011"}]
+    },
+    {
+        "_id": {"$oid": "507f1f77bcf86cd799439013"},
+        "nombre": "María Rodríguez",
+        "email": "maria.rodriguez@email.com",
+        "password": "hashed_password_789",
+        "genero": "femenino",
+        "estilos_preferidos": ["bohemio", "vintage", "romántico"],
+        "prendas_armario": [
+        {"$oid": "507f1f77bcf86cd799439025"},
+        {"$oid": "507f1f77bcf86cd799439026"}
+        ],
+        "fecha_registro": {"$date": "2024-02-05T09:45:00Z"},
+        "seguidores": [{"$oid": "507f1f77bcf86cd799439014"}],
+        "siguiendo": [{"$oid": "507f1f77bcf86cd799439014"}]
+    },
+    {
+        "_id": {"$oid": "507f1f77bcf86cd799439014"},
+        "nombre": "David Martínez",
+        "email": "david.martinez@email.com",
+        "password": "hashed_password_101",
+        "genero": "masculino",
+        "estilos_preferidos": ["formal", "clásico", "elegante"],
+        "prendas_armario": [
+        {"$oid": "507f1f77bcf86cd799439027"},
+        {"$oid": "507f1f77bcf86cd799439028"}
+        ],
+        "fecha_registro": {"$date": "2024-02-10T16:20:00Z"},
+        "seguidores": [{"$oid": "507f1f77bcf86cd799439013"}],
+        "siguiendo": [{"$oid": "507f1f77bcf86cd799439013"}]
+    },
+    {
+        "_id": {"$oid": "507f1f77bcf86cd799439015"},
+        "nombre": "Laura Hernández",
+        "email": "laura.hernandez@email.com",
+        "password": "hashed_password_112",
+        "genero": "femenino",
+        "estilos_preferidos": ["deportivo", "casual", "minimalista"],
+        "prendas_armario": [
+        {"$oid": "507f1f77bcf86cd799439029"},
+        {"$oid": "507f1f77bcf86cd799439030"}
+        ],
+        "fecha_registro": {"$date": "2024-02-15T11:10:00Z"},
+        "seguidores": [{"$oid": "507f1f77bcf86cd799439016"}],
+        "siguiendo": [{"$oid": "507f1f77bcf86cd799439016"}]
+    },
+    {
+        "_id": {"$oid": "507f1f77bcf86cd799439016"},
+        "nombre": "Javier Pérez",
+        "email": "javier.perez@email.com",
+        "password": "hashed_password_131",
+        "genero": "masculino",
+        "estilos_preferidos": ["urbano", "streetwear", "moderno"],
+        "prendas_armario": [
+        {"$oid": "507f1f77bcf86cd799439031"},
+        {"$oid": "507f1f77bcf86cd799439032"}
+        ],
+        "fecha_registro": {"$date": "2024-02-20T13:25:00Z"},
+        "seguidores": [{"$oid": "507f1f77bcf86cd799439015"}],
+        "siguiendo": [{"$oid": "507f1f77bcf86cd799439015"}]
+    },
+    {
+        "_id": {"$oid": "507f1f77bcf86cd799439017"},
+        "nombre": "Sofía Castro",
+        "email": "sofia.castro@email.com",
+        "password": "hashed_password_415",
+        "genero": "femenino",
+        "estilos_preferidos": ["glam", "elegante", "sofisticado"],
+        "prendas_armario": [
+        {"$oid": "507f1f77bcf86cd799439033"},
+        {"$oid": "507f1f77bcf86cd799439034"}
+        ],
+        "fecha_registro": {"$date": "2024-03-01T15:40:00Z"},
+        "seguidores": [{"$oid": "507f1f77bcf86cd799439018"}],
+        "siguiendo": [{"$oid": "507f1f77bcf86cd799439018"}]
+    },
+    {
+        "_id": {"$oid": "507f1f77bcf86cd799439018"},
+        "nombre": "Miguel Torres",
+        "email": "miguel.torres@email.com",
+        "password": "hashed_password_161",
+        "genero": "masculino",
+        "estilos_preferidos": ["casual", "deportivo", "relajado"],
+        "prendas_armario": [
+        {"$oid": "507f1f77bcf86cd799439035"},
+        {"$oid": "507f1f77bcf86cd799439036"}
+        ],
+        "fecha_registro": {"$date": "2024-03-05T12:00:00Z"},
+        "seguidores": [{"$oid": "507f1f77bcf86cd799439017"}],
+        "siguiendo": [{"$oid": "507f1f77bcf86cd799439017"}]
+    },
+    {
+        "_id": {"$oid": "507f1f77bcf86cd799439019"},
+        "nombre": "Elena Vargas",
+        "email": "elena.vargas@email.com",
+        "password": "hashed_password_718",
+        "genero": "femenino",
+        "estilos_preferidos": ["vintage", "romántico", "boho"],
+        "prendas_armario": [
+        {"$oid": "507f1f77bcf86cd799439037"},
+        {"$oid": "507f1f77bcf86cd799439038"}
+        ],
+        "fecha_registro": {"$date": "2024-03-10T17:30:00Z"},
+        "seguidores": [{"$oid": "507f1f77bcf86cd799439020"}],
+        "siguiendo": [{"$oid": "507f1f77bcf86cd799439020"}]
+    },
+    {
+        "_id": {"$oid": "507f1f77bcf86cd799439020"},
+        "nombre": "Roberto Silva",
+        "email": "roberto.silva@email.com",
+        "password": "hashed_password_192",
+        "genero": "masculino",
+        "estilos_preferidos": ["business", "formal", "clásico"],
+        "prendas_armario": [
+        {"$oid": "507f1f77bcf86cd799439039"},
+        {"$oid": "507f1f77bcf86cd799439040"}
+        ],
+        "fecha_registro": {"$date": "2024-03-15T14:45:00Z"},
+        "seguidores": [{"$oid": "507f1f77bcf86cd799439019"}],
+        "siguiendo": [{"$oid": "507f1f77bcf86cd799439019"}]
+    }
+]
